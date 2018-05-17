@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <div class="media">
+        <div class="media-left media-top">
+            <img class="avatar pull-left" src="{{ url_for('static', filename='img/trump.png') }}">
+        </div>
+        <div class="media-body media-top">
+            <strong class="media-heading">Donald J. Trump
+                <b class="handle"> @tianissohot</b>
+            </strong>
+            <p class="tweet">{{ tweet }}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
