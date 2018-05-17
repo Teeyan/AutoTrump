@@ -14,10 +14,9 @@ willing to tweet literally anything I don't think it matters too much.
 
 Some gems include :
 
-Same d:^)
 ![d:^)](https://i.imgur.com/1uMZ44N.png)
 
-Montana Blows
+I hate Montana too
 ![Montana Blows](https://i.imgur.com/Quiwc1P.png)
 
 There are of course lots of flops. Sometimes the generation gets convoluted and rambles on for too long, or gets cut short due to poor
@@ -26,6 +25,6 @@ sentence structure / typos.
 Honestly? I could still see it
 ![Honestly? I could still see it](https://i.imgur.com/jXuDQ9m.png)
 
-Improvements for the future include better pre-processing and experimentation with more nuanced generative models. But for now, hope this 
+Looking forward, I plan on implementing better pre-processing and experimentation with different generative models. But for now, hope this 
 brought something close to a smile to your face.
 
