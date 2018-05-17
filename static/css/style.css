@@ -27,8 +27,19 @@ strong {
     margin-top: 15px;
 }
 
-form {
+.original {
     margin-left: 15px;
+}
+
+.refresh {
+    align-content:center;
+    align-items: center;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
 
 .container {

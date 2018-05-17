@@ -8,10 +8,16 @@
         </div>
         <div class="media-body media-top">
             <strong class="media-heading">Donald J. Trump
-                <b class="handle"> @tianissohot</b>
+                <b class="handle"><a class= "handle" href="github.com/Teeyan/AutoTrump"> @tianissohot </a></b>
             </strong>
             <p class="tweet">{{ tweet }}</p>
         </div>
     </div>
+</div>
+
+<div class="refresh">
+    <form action="{{url_for('generate')}}" method="get">
+    <button type="submit" class="btn btn-primary btn-large btn-block">Another One</button>
+    </form>
 </div>
 {% endblock %}
