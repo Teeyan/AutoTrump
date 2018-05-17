@@ -14,6 +14,8 @@ def home():
 
 @application.route('/tweet', methods=['GET'])
 def generate():
+    while not markov_chain.loaded:
+        continue
     tweet = markov_chain.generate_tweet()
     return render_template('tweet.html', tweet=tweet)
 

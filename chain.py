@@ -18,7 +18,7 @@ def main():
 
     with open(filename, "r") as fp:
         for line in fp.readlines():
-            words = line.split()
+            words = line.decode('utf-8').split()
             for w1, w2, w3 in generate_trigrams(words):
                 key = (w1, w2)
                 if key in chain:

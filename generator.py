@@ -6,6 +6,7 @@ class TweetGenerator:
 
     def __init__(self):
         self.transition_dict = {}
+        self.loaded = False
 
     def load_generator(self, filename):
         """
@@ -13,6 +14,7 @@ class TweetGenerator:
         :param filename: file location of the pickle object to be loaded
         """
         self.transition_dict = pickle.load(open(filename, "rb"))
+        self.loaded = True    
 
     def generate_tweet(self):
         """
