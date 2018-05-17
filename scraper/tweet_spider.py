@@ -8,12 +8,14 @@ class TweetSpider(scrapy.Spider):
     name = "tweets"
     start_urls = ["https://mobile.twitter.com/realDonaldTrump"]
     custom_settings = {
-        'CLOSESPIDER_PAGECOUNT': 20,
+        'CLOSESPIDER_ITEMCOUNT': 50000,
         'ITEM_PIPELINES': {
           'process.TweetPipeline': 300,
         },
         'AUTOTHROTTLE_ENABLED': True,
         'AUTOTHROTTLE_START_DELAY': 3.0,
+        'DOWNLOAD_DELAY': 2.0,
+
     }
 
     def parse(self, response):
