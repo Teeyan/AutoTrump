@@ -7,7 +7,7 @@ Randomly generate presidential quality tweets whenever, wherever with the click 
 Implemented through a simple markov chain based on word trigrams, every B I G T R U M P tweet I could find was scraped and used as a basis to
 generate fake ones.
 
-[CHECK IT OUT HERE](link pending lmao)
+[CHECK IT OUT HERE](http://ec2-52-22-197-254.compute-1.amazonaws.com)
 
 The quality of the results vary right now as I'm still tweaking the methods of word generation, but since the B I G D O N seems
 willing to tweet literally anything I don't think it matters too much.
